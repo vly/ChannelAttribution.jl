@@ -1,0 +1,17 @@
+name = "ChannelAttribution"
+uuid = "5ccead62-8019-4a6e-9c41-d810ffac9de0"
+authors = ["val@plstr.com <val@plstr.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
